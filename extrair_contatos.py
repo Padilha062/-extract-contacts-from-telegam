@@ -1,10 +1,10 @@
 from telethon.sync import TelegramClient
 
 # Substitua pelos seus dados
-API_ID = "21562710"
-API_HASH = "b75426d1370a378003c8ba6340f62c7a"
-PHONE_NUMBER = "+5562981203802"  # Exemplo: +5511999999999
-GROUP_NAME = "Comunidade MATEQ"  # Nome exato do grupo
+API_ID = "*"
+API_HASH = "*"
+PHONE_NUMBER = "*"  # Exemplo: +5511999999999
+GROUP_NAME = "*"  # Nome exato do grupo
 
 with TelegramClient('session', API_ID, API_HASH) as client:
     # Lista todos os grupos que você participa
